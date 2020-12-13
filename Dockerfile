@@ -6,5 +6,6 @@ RUN pip install --upgrade pip
 
 RUN pip install --no-cache-dir \
   'WeasyPrint' \
+  'mkdocs-with-pdf' \
   'mkdocs-pdf-export-plugin' \
   'mkdocs-minify-plugin'
