@@ -5,5 +5,4 @@ RUN apk --update --upgrade add gcc musl-dev jpeg-dev zlib-dev libffi-dev cairo-d
 RUN pip install --upgrade pip
 
 RUN pip install --no-cache-dir \
-  'WeasyPrint' \
-  'mkpdfs-mkdocs'
+  'mkdocs-print-site-plugin'
